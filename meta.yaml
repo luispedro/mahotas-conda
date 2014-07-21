@@ -1,11 +1,11 @@
 package:
   name: mahotas
-  version: !!str 1.2
+  version: !!str 1.2.1
 
 source:
-  fn: mahotas-1.2.tar.gz
-  url: https://pypi.python.org/packages/source/m/mahotas/mahotas-1.2.tar.gz
-  md5: 37b109add109a10fefc1d2f4c4b8846e
+  fn: mahotas-1.2.1.tar.gz
+  url: https://pypi.python.org/packages/source/m/mahotas/mahotas-1.2.1.tar.gz
+  md5: b5c907e699d8b214cd4c809bf2476866
 #  patches:
    # List any patch files here
    # - fix.patch
