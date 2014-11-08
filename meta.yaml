@@ -1,10 +1,10 @@
 package:
   name: mahotas
-  version: !!str 1.2.2
+  version: !!str 1.2.3
 
 source:
   git_url: git://github.com/luispedro/mahotas.git
-  git_tag: release-1.2.2
+  git_tag: release-1.2.3
 #  patches:
    # List any patch files here
    # - fix.patch
@@ -23,6 +23,9 @@ requirements:
   run:
     - python
     - numpy
+
+build:
+    script: python setup.py install
 
 test:
   # Python imports
